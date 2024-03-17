@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen justify-center items-center text-xl">
       <div className="p-10">
-        My name is Sarfaraz ul Haq and this is my first Next.js project.
+        Hello, My name is Sarfaraz ul Haq and this is my first Next.js project.
       </div>
       <div>
         <Link
