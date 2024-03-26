@@ -9,7 +9,7 @@ export default function Home() {
       <div>
         <Link
           className="border border-gray-300 px-2 py-1 rounded-md hover:bg-gray-300 hover:border-gray-300"
-          href={"test_page"}
+          href={"/test_page"}
         >
           Go to Test Page
         </Link>
