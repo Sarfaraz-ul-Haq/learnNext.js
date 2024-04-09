@@ -11,8 +11,10 @@ export default function Name() {
 
   return (
     <div className="flex flex-col gap-3">
-      <div className="text-bold bg-green-400">My name is Sarfaraz</div>
-      <button onClick={getAddress}>Get Address</button>
+      <div>My name is Sarfaraz</div>
+      <div className="py-2 px-4 hover:border-gray-800">
+        <button onClick={getAddress}>Get Address</button>
+      </div>
     </div>
   );
 }
