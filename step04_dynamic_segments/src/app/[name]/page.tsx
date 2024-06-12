@@ -1,11 +1,18 @@
-function GiveName({
-  params,
-  searchParams,
-}: {
-  params: { name: string };
-  searchParams: { id: string };
-}) {
-  return <div>My name is {params.name}.</div>;
+type WriteNameProps = {
+  params: {
+    name: string;
+  };
+  searchParams: any;
+};
+
+function WriteName({ params, searchParams }: WriteNameProps) {
+  console.log(searchParams.id);
+  return (
+    <div>
+      <div>params = {params.name}</div>
+      <div>searchParams = {searchParams.id}</div>
+    </div>
+  );
 }
 
-export default GiveName;
+export default WriteName;
